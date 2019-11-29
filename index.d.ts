@@ -1,14 +1,13 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * If strict mode is supported.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const strictSupported = require("strict-supported");
+ *
+ * strictSupported;
+ * //=> true
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare const strictSupported: boolean
 
-export = theModule;
+export = strictSupported;

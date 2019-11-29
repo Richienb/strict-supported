@@ -1,13 +1,8 @@
 import test from "ava"
-import theModule from "."
+import isNodeLater from "is-node-later"
+import strictSupported from "."
 
 test("main", (t) => {
-    t.throws(() => {
-        theModule(123)
-    }, {
-        instanceOf: TypeError,
-        message: "Expected a string, got number",
-    })
-
-    t.is(theModule("unicorns"), "unicorns & rainbows")
+    if (isNodeLater(">=4")) t.true(strictSupported)
+    else t.false(strictSupported)
 })

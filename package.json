@@ -1,8 +1,8 @@
 {
-    "name": "the-module",
+    "name": "strict-supported",
     "version": "0.0.0",
-    "description": "My awesome module.",
-    "repository": "https://github.com/Richienb/the-module.git",
+    "description": "Check if strict mode is supported.",
+    "repository": "https://github.com/Richienb/strict-supported.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
@@ -10,24 +10,33 @@
         "index.js",
         "index.d.ts"
     ],
-    "engines": {
-        "node": ">=8"
-    },
     "scripts": {
         "lint": "xo",
         "test": "yarn lint && ava"
     },
-    "keywords": [],
+    "keywords": [
+        "strict",
+        "supported",
+        "use-strict",
+        "use",
+        "safety",
+        "checking",
+        "is"
+    ],
     "dependencies": {},
     "devDependencies": {
         "ava": "^2.1.0",
         "eslint-config-richienb": "^0.2.2",
+        "is-node-later": "^1.0.0",
         "xo": "^0.25.3"
     },
     "resolutions": {
         "eslint": "^6.6.0"
     },
     "xo": {
-        "extends": "richienb/node"
+        "extends": "richienb/node",
+        "rules": {
+            "no-invalid-this": 0
+        }
     }
 }

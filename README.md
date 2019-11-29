@@ -1,41 +1,28 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/strict-supported/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/strict-supported)
 
-My awesome module.
+Check if strict mode is supported via `use-strict`.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/strict-supported.png)](https://npmjs.com/package/strict-supported)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install strict-supported
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+const strictSupported = require("strict-supported");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+strictSupported;
+//=> true
 ```
 
 ## API
 
-### theModule(input, options?)
+### strictSupported
 
-#### input
+Type: `boolean`
 
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+If strict mode is supported.

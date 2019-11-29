@@ -2442,6 +2442,13 @@ is-js-type@^2.0.0:
   dependencies:
     js-types "^1.0.0"
 
+is-node-later@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/is-node-later/-/is-node-later-1.0.0.tgz#5ed238236f71e3baeb234237541b9aa05682ea41"
+  integrity sha512-cP7v0GZd0XArmxKwke+Y2rWa5wOuf8/UX54QT1FmAHVG7TIk+ymzwC4QCEo8cbcNSuicJ+9aNUVCspcbAPXe8A==
+  dependencies:
+    semver "^6.3.0"
+
 is-npm@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/is-npm/-/is-npm-3.0.0.tgz#ec9147bfb629c43f494cf67936a961edec7e8053"
