@@ -1,6 +1,6 @@
 {
     "name": "strict-supported",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Check if strict mode is supported.",
     "repository": "https://github.com/Richienb/strict-supported.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
