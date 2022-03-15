@@ -421,9 +421,9 @@ acorn-jsx@^5.1.0:
   integrity sha512-tMUqwBWfLFbJbizRmEcWSLw6HnFzfdJs2sOJEOwwtVPMoH/0Ay+E703oZz78VSXZiiDcZrQ5XKjPIUQixhmgVw==
 
 acorn@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
-  integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
+  integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
 ajv@^6.10.0, ajv@^6.10.2:
   version "6.10.2"
@@ -1413,10 +1413,10 @@ eslint-config-prettier@^6.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-richienb@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-richienb/-/eslint-config-richienb-0.2.2.tgz#df52a73d2f3b1f3877a8021f357d7ea102fef3e7"
-  integrity sha512-iYlDM9h4vNRipzmCeeVy+kpRC6hIzDQt+4JevZuHtWShWaWtATrZ86IHVFzSNz+0XUySby2OuJqPGHkd7Cnkkg==
+eslint-config-richienb@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-richienb/-/eslint-config-richienb-0.2.3.tgz#a8029343a9e98460e596f8eb4a5d596f0edb2eff"
+  integrity sha512-A1NhsNSonCfxdZfeJKaEDK5PMr+xcvIb4/e8agmn7M66wDcBgEB56m8iU1E/0eqNwBkwlDhrqBOhiZf00vg9Pg==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^2.6.0"
     "@typescript-eslint/parser" "^2.6.0"
